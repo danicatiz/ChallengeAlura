@@ -2,8 +2,7 @@
 Análise de Desempenho de Lojas
 Challenge Alura Store
 
-<img src="[URL_da_Imagem](https://raw.githubusercontent.com/heloisa-azevedo/Challenge-Alura-Store/refs/heads/main/img/Faturamento_total_por_loja.jpg)" alt="gráfico">
-
+<img src="[https://exemplo.com/logo.png](https://raw.githubusercontent.com/heloisa-azevedo/Challenge-Alura-Store/refs/heads/main/img/Faturamento_total_por_loja.jpg)" alt="gráfico">
 
 Objetivo
 O objetivo deste projeto foi ajudar o Senhor João a decidir qual das suas quatro lojas vender, com base nos dados de desempenho de cada uma. Foram avaliados: faturamento total, produtos mais e menos vendidos, satisfação dos clientes e custo médio de frete.
