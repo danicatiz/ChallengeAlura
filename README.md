@@ -11,10 +11,6 @@ Objetivo
 O objetivo deste projeto foi ajudar o Senhor João a decidir qual das suas quatro lojas vender, com base nos dados de desempenho de cada uma. Foram avaliados: faturamento total, produtos mais e menos vendidos, satisfação dos clientes e custo médio de frete.
 
 
-
-![Uploading Faturamento_total_por_loja.jpg…]()
-
-
 Análise:
 A Loja 1 apresentou o maior faturamento (R$ 1.534.509,12). Já a Loja 4 ficou em último lugar, com o valor de R$ 1.384.497,58 — indicando menor retorno financeiro.
 
