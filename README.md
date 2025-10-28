@@ -8,66 +8,6 @@ Objetivo
 O objetivo deste projeto foi ajudar o Senhor João a decidir qual das suas quatro lojas vender, com base nos dados de desempenho de cada uma. Foram avaliados: faturamento total, produtos mais e menos vendidos, satisfação dos clientes e custo médio de frete.
 
 
-"""
-Script: plot_faturamento_por_loja.py
-Descrição: Gera o gráfico de barras "Faturamento total por loja" mostrado pelo usuário
-Requisitos: pandas, matplotlib
-Como usar (exemplo):
-    python plot_faturamento_por_loja.py
-Isso irá gerar o arquivo `Faturamento_total_por_loja.png` na mesma pasta.
-
-Instruções rápidas para colocar no GitHub:
-1. Crie um repositório (local):
-   git init
-   git add plot_faturamento_por_loja.py
-   git commit -m "Adicionar script para gerar gráfico de faturamento por loja"
-2. Conecte ao remoto e envie:
-   git remote add origin <URL-do-repo>
-   git branch -M main
-   git push -u origin main
-
-"""
-
-import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.ticker as mtick
-
-# --- Dados ---
-lojas = ['Loja 1', 'Loja 2', 'Loja 3', 'Loja 4']
-faturamento = [1534509.12, 1488459.06, 1464025.03, 1384497.58]
-
-df = pd.DataFrame({'Loja': lojas, 'Faturamento': faturamento})
-
-# --- Plot ---
-fig, ax = plt.subplots(figsize=(8, 5))
-
-bars = ax.bar(df['Loja'], df['Faturamento'])
-
-# Título e rótulos
-ax.set_title('Faturamento total por loja', fontsize=14)
-ax.set_ylabel('Faturamento (R$)', fontsize=12)
-
-# Formatar eixo y como moeda (R$)
-ax.yaxis.set_major_formatter(mtick.FuncFormatter(lambda x, pos: f"{x:,.0f}"))
-
-# Anotar valores acima das barras
-for bar, value in zip(bars, df['Faturamento']):
-    height = bar.get_height()
-    ax.annotate(f'{value:,.2f}',
-                xy=(bar.get_x() + bar.get_width() / 2, height),
-                xytext=(0, 6),  # deslocamento vertical
-                textcoords='offset points',
-                ha='center', va='bottom', fontsize=9)
-
-plt.tight_layout()
-
-# Salvar figura
-output_path = 'Faturamento_total_por_loja.png'
-plt.savefig(output_path, dpi=300)
-print(f'Gráfico salvo em: {output_path}')
-
-# Também mostrar na tela (útil em ambiente local)
-
 
 
 
