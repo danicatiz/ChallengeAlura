@@ -10,6 +10,36 @@ O objetivo deste projeto foi ajudar o Senhor João a decidir qual das suas quatr
 
 
 
+git init
+git add plot_faturamento_por_loja.py
+git commit -m "Adicionar script para gerar gráfico de faturamento por loja"
+git remote add origin <URL-do-repo>
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Análise:
 A Loja 1 apresentou o maior faturamento (R$ 1.534.509,12). Já a Loja 4 ficou em último lugar, com o valor de R$ 1.384.497,58 — indicando menor retorno financeiro.
