@@ -10,8 +10,9 @@ Python para Data Science: Trabalhando com funções, estruturas de dados e exce�
 Objetivo
 O objetivo deste projeto foi ajudar o Senhor João a decidir qual das suas quatro lojas vender, com base nos dados de desempenho de cada uma. Foram avaliados: faturamento total, produtos mais e menos vendidos, satisfação dos clientes e custo médio de frete.
 
-Obs: Já que a proposta do Challenge não deixa explicito, foi considerado que o frete é cobrado do cliente, não sendo deduzido do faturamento das lojas.
 
+
+![Uploading Faturamento_total_por_loja.jpg…]()
 
 
 Análise:
