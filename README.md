@@ -2,6 +2,7 @@
 Análise de Desempenho de Lojas
 Challenge Alura Store
 
+<img src="[URL_da_Imagem](https://raw.githubusercontent.com/heloisa-azevedo/Challenge-Alura-Store/refs/heads/main/img/Faturamento_total_por_loja.jpg)" alt="gráfico">
 
 
 Objetivo
